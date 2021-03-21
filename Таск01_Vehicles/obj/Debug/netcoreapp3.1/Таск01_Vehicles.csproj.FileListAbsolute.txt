@@ -1,0 +1,13 @@
+C:\Users\Kiril\OOP_CSharp\04_CSharp-OOP-Polymorphism-Exercise\Таск01_Vehicles\bin\Debug\netcoreapp3.1\Таск01_Vehicles.exe
+C:\Users\Kiril\OOP_CSharp\04_CSharp-OOP-Polymorphism-Exercise\Таск01_Vehicles\bin\Debug\netcoreapp3.1\Таск01_Vehicles.deps.json
+C:\Users\Kiril\OOP_CSharp\04_CSharp-OOP-Polymorphism-Exercise\Таск01_Vehicles\bin\Debug\netcoreapp3.1\Таск01_Vehicles.runtimeconfig.json
+C:\Users\Kiril\OOP_CSharp\04_CSharp-OOP-Polymorphism-Exercise\Таск01_Vehicles\bin\Debug\netcoreapp3.1\Таск01_Vehicles.runtimeconfig.dev.json
+C:\Users\Kiril\OOP_CSharp\04_CSharp-OOP-Polymorphism-Exercise\Таск01_Vehicles\bin\Debug\netcoreapp3.1\Таск01_Vehicles.dll
+C:\Users\Kiril\OOP_CSharp\04_CSharp-OOP-Polymorphism-Exercise\Таск01_Vehicles\bin\Debug\netcoreapp3.1\Таск01_Vehicles.pdb
+C:\Users\Kiril\OOP_CSharp\04_CSharp-OOP-Polymorphism-Exercise\Таск01_Vehicles\obj\Debug\netcoreapp3.1\Таск01_Vehicles.csprojAssemblyReference.cache
+C:\Users\Kiril\OOP_CSharp\04_CSharp-OOP-Polymorphism-Exercise\Таск01_Vehicles\obj\Debug\netcoreapp3.1\Таск01_Vehicles.AssemblyInfoInputs.cache
+C:\Users\Kiril\OOP_CSharp\04_CSharp-OOP-Polymorphism-Exercise\Таск01_Vehicles\obj\Debug\netcoreapp3.1\Таск01_Vehicles.AssemblyInfo.cs
+C:\Users\Kiril\OOP_CSharp\04_CSharp-OOP-Polymorphism-Exercise\Таск01_Vehicles\obj\Debug\netcoreapp3.1\Таск01_Vehicles.csproj.CoreCompileInputs.cache
+C:\Users\Kiril\OOP_CSharp\04_CSharp-OOP-Polymorphism-Exercise\Таск01_Vehicles\obj\Debug\netcoreapp3.1\Таск01_Vehicles.dll
+C:\Users\Kiril\OOP_CSharp\04_CSharp-OOP-Polymorphism-Exercise\Таск01_Vehicles\obj\Debug\netcoreapp3.1\Таск01_Vehicles.pdb
+C:\Users\Kiril\OOP_CSharp\04_CSharp-OOP-Polymorphism-Exercise\Таск01_Vehicles\obj\Debug\netcoreapp3.1\Таск01_Vehicles.genruntimeconfig.cache
