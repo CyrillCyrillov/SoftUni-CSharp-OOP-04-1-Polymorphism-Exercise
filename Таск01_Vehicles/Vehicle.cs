@@ -4,8 +4,17 @@ using System.Text;
 
 namespace Таск01_Vehicles
 {
-    public class Vehicle
+    public abstract class Vehicle
     {
+        private const double carIncreased = 0.9;
+
+        private const double carReFuelLost = 1;
+
+        private const double truckIncreased = 1.6;
+
+        private const double truckReFuelLost = 0.95;
+
+
         private double increased;
 
         private double reFuelLost;
@@ -53,7 +62,13 @@ namespace Таск01_Vehicles
 
         public string Drive(double distance)
         {
-            double neededFuel = (FuelConsumption + increased) / 100 * distance;
+            double increased = 0;
+
+            if(GetType().Name == "Car") { increased = carIncreased; }
+            if(GetType().Name == "Truck") { increased = truckIncreased; }
+
+
+            double neededFuel = (FuelConsumption + increased) * distance;
             if(neededFuel > FuelQuantity)
             {
                 return $"needs refueling";
@@ -65,6 +80,11 @@ namespace Таск01_Vehicles
 
         public void ReFuel(double fuel)
         {
+            double reFuelLost = 0;
+
+            if (GetType().Name == "Car") { reFuelLost = carReFuelLost; }
+            if (GetType().Name == "Truck") { reFuelLost = truckReFuelLost; }
+
             FuelQuantity += fuel * reFuelLost;
         }
 
