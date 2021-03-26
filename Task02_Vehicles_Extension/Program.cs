@@ -45,20 +45,20 @@ namespace Task02_Vehicles_Extension
                     case "DRIVE":
                         if (comand[1].ToUpper() == "CAR")
                         {
-                            Console.WriteLine("Car " + myCar.Drive(double.Parse(comand[2])));
+                            Console.WriteLine("Car " + myCar.Drive(double.Parse(comand[2]), "normal"));
                         }
                         else if (comand[1].ToUpper() == "TRUCK")
                         {
-                            Console.WriteLine("Truck " + myTruck.Drive(double.Parse(comand[2])));
+                            Console.WriteLine("Truck " + myTruck.Drive(double.Parse(comand[2]), "normal"));
                         }
                         else
                         {
-                            Console.WriteLine("Bus " + myBus.Drive(double.Parse(comand[2])));
+                            Console.WriteLine("Bus " + myBus.Drive(double.Parse(comand[2]), "NotEmpty"));
                         }
                         break;
 
                     case "DRIVEEMPTY":
-                        Console.WriteLine("Bus " + myBus.DriveEmpty(double.Parse(comand[2])));
+                        Console.WriteLine("Bus " + myBus.Drive(double.Parse(comand[2]), "normal"));
                         break;
 
                     case "REFUEL":
@@ -85,6 +85,7 @@ namespace Task02_Vehicles_Extension
 
             Console.WriteLine($"Car: {(myCar.FuelQuantity):f2}");
             Console.WriteLine($"Truck: {(myTruck.FuelQuantity):f2}");
+            Console.WriteLine($"Bus: {(myBus.FuelQuantity):f2}");
 
 
 
