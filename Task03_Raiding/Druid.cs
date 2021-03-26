@@ -4,7 +4,20 @@ using System.Text;
 
 namespace Task03_Raiding
 {
-    class Druid
+   public  class Druid : BaseHero
     {
+        private const int basePower = 80;
+
+        public Druid(string name) : base (name, basePower)
+        {
+
+        }
+
+
+
+        public override string CastAbility()
+        {
+            return $"Druid - {Name} healed for {Power}";
+        }
     }
 }
