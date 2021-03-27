@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Task04_Wild_Farm.Foods
+namespace Task04_Wild_Farm
 {
-    class Fruit
+    public class Fruit : Food
     {
+        public Fruit(int quantity) : base(quantity)
+        {
+        }
     }
 }
